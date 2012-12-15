@@ -20,6 +20,31 @@ public class BinaryTree {
             this.nextRight = null;
             this.nextLeft = null;
         }
+
+        public String toString(){
+            return new Integer(this.data).toString();
+        }
+
+        public Node getLeft(){
+            return this.left;
+        }
+
+        public Node getRight() {
+            return this.right;
+        }
+
+        public Node makeNonNullLeft(){
+            if(this.left == null){
+                this.left = new Node(0);
+            }
+            return this;
+        }
+
+        public Node makeNonNullRight(){
+            if(this.right == null)
+               this.right = new Node(0);
+            return this;
+        }
     }
 
     private Node root;
@@ -38,6 +63,11 @@ public class BinaryTree {
         return new Node(data);
     }
 
+    public void addAsLeftChild(Node parent, int child){
+        assert(parent != null);
+        parent.left = getNewNode(child);
+    }
+
     public void addAsLeftChild(Node parent, Node child){
         assert(parent != null);
         parent.left = child;
@@ -48,11 +78,20 @@ public class BinaryTree {
         parent.right = child;
     }
 
+    public void addAsRightChild(Node parent, int child){
+        assert(parent != null);
+        parent.right = getNewNode(child);
+    }
+
     public Node getRoot(){
         return this.root;
     }
 
     public void setRoot(int data){
         this.root = new Node(data);
+    }
+
+    public void print(BinaryTreeWriter writer){
+        writer.write(this);
     }
 }

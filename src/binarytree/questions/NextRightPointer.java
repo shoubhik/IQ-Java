@@ -1,6 +1,8 @@
 package binarytree.questions;
 
 import binarytree.BinaryTree;
+import binarytree.BinaryTreePrettyWriter;
+import binarytree.BinaryTreeWriter;
 import binarytree.TrivialBinaryTreeConstructor;
 
 /**
@@ -53,7 +55,10 @@ public class NextRightPointer {
         TrivialBinaryTreeConstructor tvb = new TrivialBinaryTreeConstructor(
                 new BinaryTree());
         BinaryTree bt  = tvb.construct();
+        BinaryTreeWriter writer = new BinaryTreePrettyWriter();
+
         connectToRightSibling(bt.getRoot());
+        writer.write(bt);
 
         tvb = new TrivialBinaryTreeConstructor(
                 new BinaryTree());
