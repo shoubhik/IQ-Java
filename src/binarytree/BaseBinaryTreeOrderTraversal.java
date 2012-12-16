@@ -33,7 +33,7 @@ public abstract class BaseBinaryTreeOrderTraversal {
         takeAction(node);
     }
 
-    protected void walk(Order order, BinaryTree bt) {
+    public void walk(Order order, BinaryTree bt) {
         switch(order){
             case INORDER:
                 inOrder(bt.getRoot());

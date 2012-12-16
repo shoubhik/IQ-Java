@@ -59,7 +59,11 @@ public class BinaryTree {
 
     }
 
-    public Node getNewNode(int data){
+    public BinaryTree(Node root){
+        this.root = root;
+    }
+
+    public static Node getNewNode(int data){
         return new Node(data);
     }
 
