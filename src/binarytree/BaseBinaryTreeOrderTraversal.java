@@ -12,22 +12,35 @@ public abstract class BaseBinaryTreeOrderTraversal {
 
     protected abstract void takeAction(BinaryTree.Node node);
 
+    protected void takeActionForNullNode(){
+        // empty
+    }
+
     protected void inOrder(BinaryTree.Node node){
-        if(node == null) return;
+        if(node == null) {
+            takeActionForNullNode();
+            return;
+        }
         inOrder(node.left);
         takeAction(node);
         inOrder((node.right));
     }
 
     protected void preOrder(BinaryTree.Node node){
-        if(node == null) return;
+        if(node == null){
+            takeActionForNullNode();
+            return;
+        }
         takeAction(node);
         preOrder(node.left);
         preOrder(node.right);
     }
 
     protected void postOrder(BinaryTree.Node node){
-        if(node == null) return;
+        if(node == null) {
+            takeActionForNullNode();
+            return;
+        }
         postOrder(node.left);
         postOrder(node.right);
         takeAction(node);
