@@ -68,10 +68,12 @@ public class ReadBinaryTreeFromFile implements BinaryTreeConstructor {
         if(!data[idx].equals("#")){
             node.data = Integer.parseInt(data[idx]);
             idx++;
+            if(idx >= data.length) return ;
             if(!data[idx].equals("#"))
                 node.makeNonNullLeft();
             createBinaryTree(data, node.left);
             idx++;
+            if(idx >= data.length) return ;
             if(!data[idx].equals("#"))
                 node.makeNonNullRight();
             createBinaryTree(data, node.right);

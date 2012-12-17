@@ -5,8 +5,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 /**
- * User: shoubhik Date: 11/12/12 Time: 1:54 PM]
- * serialize the binary tree in a preorder traversal
+ * User: shoubhik Date: 11/12/12 Time: 1:54 PM] serialize the binary tree in a
+ * preorder traversal
  */
 public class BinaryTreeFileSerializer implements BinaryTreeWriter {
 
@@ -15,7 +15,7 @@ public class BinaryTreeFileSerializer implements BinaryTreeWriter {
     private BufferedWriter out;
     private TreeSerializer serializer;
 
-    public static enum TreeType{
+    public static enum TreeType {
         BST, BINARY_TREE
     }
 
@@ -25,7 +25,8 @@ public class BinaryTreeFileSerializer implements BinaryTreeWriter {
         public void serialize(BinaryTree bt);
     }
 
-    private class BSTSerializer extends BaseBinaryTreeOrderTraversal implements  TreeSerializer{
+    private class BSTSerializer extends BaseBinaryTreeOrderTraversal
+            implements TreeSerializer {
 
         private Order order;
         private BufferedWriter out;
@@ -41,7 +42,8 @@ public class BinaryTreeFileSerializer implements BinaryTreeWriter {
                 out.write(node.data + "\n");
             } catch (IOException e) {
                 throw new RuntimeException(
-                        "unable to write data for node = " + node.data + "at file" +
+                        "unable to write data for node = " + node.data + "at " +
+                                "file" +
                                 " = " + fileName);
 
             }
@@ -58,28 +60,28 @@ public class BinaryTreeFileSerializer implements BinaryTreeWriter {
         }
     }
 
-    private class BinaryTreeSerializer extends BaseBinaryTreeOrderTraversal implements  TreeSerializer{
+    private class BinaryTreeSerializer extends BaseBinaryTreeOrderTraversal
+            implements TreeSerializer {
 
         private Order order;
         private BufferedWriter out;
 
-        public BinaryTreeSerializer(Order order, BufferedWriter out){
+        public BinaryTreeSerializer(Order order, BufferedWriter out) {
             this.order = order;
             this.out = out;
         }
 
-        protected void takeActionForNullNode(){
+        protected void takeActionForNullNode() {
             try {
                 out.write("# ");
             } catch (IOException e) {
                 throw new RuntimeException(
-                        "unable to write data for node = null" +  "at file" +
+                        "unable to write data for node = null" + "at file" +
                                 " = " + fileName);
 
             }
 
         }
-
 
 
         @Override
@@ -88,7 +90,8 @@ public class BinaryTreeFileSerializer implements BinaryTreeWriter {
                 out.write(node.data + " ");
             } catch (IOException e) {
                 throw new RuntimeException(
-                        "unable to write data for node = " + node.data + "at file" +
+                        "unable to write data for node = " + node.data + "at " +
+                                "file" +
                                 " = " + fileName);
 
             }
@@ -105,18 +108,22 @@ public class BinaryTreeFileSerializer implements BinaryTreeWriter {
         }
     }
 
-    private TreeSerializer getSerializer(TreeType treeType, BufferedWriter out){
+    private TreeSerializer getSerializer(TreeType treeType,
+                                         BufferedWriter out) {
         switch (treeType) {
             case BST:
-                return new BSTSerializer(BaseBinaryTreeOrderTraversal.Order.PREPORDER, out);
+                return new BSTSerializer(
+                        BaseBinaryTreeOrderTraversal.Order.PREPORDER, out);
             case BINARY_TREE:
-                return new BinaryTreeSerializer(BaseBinaryTreeOrderTraversal.Order.PREPORDER, out);
+                return new BinaryTreeSerializer(
+                        BaseBinaryTreeOrderTraversal.Order.PREPORDER, out);
 
         }
         throw new IllegalArgumentException("illegal tree type");
     }
 
-    public BinaryTreeFileSerializer(String filename, TreeType treeType) throws IOException {
+    public BinaryTreeFileSerializer(String filename,
+                                    TreeType treeType) throws IOException {
         this.treeType = treeType;
         this.fileName = filename;
         fstream = new FileWriter(filename);
@@ -132,12 +139,13 @@ public class BinaryTreeFileSerializer implements BinaryTreeWriter {
 
 
     public static void main(String[] args) throws IOException {
-//        BinaryTreeConstructor btc = new TrivialBinaryTreeConstructor(new BinaryTree());
+//        BinaryTreeConstructor btc = new TrivialBinaryTreeConstructor(new
+//        BinaryTree());
 //        BinaryTree bt = btc.construct();
         BinaryTree bt = BinaryTreeFactory.getBinaryTree(
                 BinaryTreeFactory.BINARY_TREE.BINARY_TREE_FOR_SERIALIZATION);
-        BinaryTreeWriter writer =
-                new BinaryTreeFileSerializer("BinaryTree", TreeType.BINARY_TREE);
+        BinaryTreeWriter writer = new BinaryTreeFileSerializer("BinaryTree",
+                                                               TreeType.BINARY_TREE);
         writer.write(bt);
     }
 }
