@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EdgeNodesBinaryTree.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/binarytree/questions/PrintEdgeNodes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/binarytree/BinaryTreeFileSerializer.java" afterPath="$PROJECT_DIR$/src/binarytree/BinaryTreeFileSerializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/binarytree/questions/IterativeInorderTraversal.java" afterPath="$PROJECT_DIR$/src/binarytree/questions/IterativeInorderTraversal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/binarytree/questions/ReadBinaryTreeFromFile.java" afterPath="$PROJECT_DIR$/src/binarytree/questions/ReadBinaryTreeFromFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/binarytree/questions/IterativePostOrderTraversal.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="IQ-Java.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1355762093483" ignored="false" />
+    <file path="/Dummy.txt" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1355965153126" ignored="false" />
     <file path="/File Header.txt.ft" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1355024578693" ignored="false" />
     <file path="/NextRightPointer.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1355163729490" ignored="false" />
     <file path="/BinaryTreeWriter.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1355161298279" ignored="false" />
@@ -40,6 +36,7 @@
     <file path="/ZigZagPrinter.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1355723538041" ignored="false" />
     <file path="/PrintEdgeNotes.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1355764911313" ignored="false" />
     <file path="/IterativeInorderTraversal.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1355764630803" ignored="false" />
+    <file path="/IterativePostOrderTraversal.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1355965278990" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +56,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
@@ -95,7 +92,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -108,7 +105,7 @@
       <file leaf-file-name="ReadBinaryTreeFromFile.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/binarytree/questions/ReadBinaryTreeFromFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="43" selection-start="2498" selection-end="2498" vertical-scroll-proportion="0.0">
+            <state line="43" column="13" selection-start="1372" selection-end="1394" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -132,24 +129,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LevelOrderPrint.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/binarytree/questions/LevelOrderPrint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="0" selection-start="3324" selection-end="3561" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZigZagPrinter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/binarytree/questions/ZigZagPrinter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="39" selection-start="1630" selection-end="1630" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
@@ -159,13 +138,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrintEdgeNodes.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PrintEdgeNodes.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/binarytree/questions/PrintEdgeNodes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="25" selection-start="301" selection-end="301" vertical-scroll-proportion="0.12820514">
+            <state line="12" column="25" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IterativePostOrderTraversal.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/binarytree/questions/IterativePostOrderTraversal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="159" column="5" selection-start="5941" selection-end="5941" vertical-scroll-proportion="7.1060605">
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2308#2325#0" expanded="true" />
+                <element signature="e#2378#2395#0" expanded="true" />
+                <element signature="e#4057#4074#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseBinaryTreeOrderTraversal.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/binarytree/BaseBinaryTreeOrderTraversal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="62" column="0" selection-start="1439" selection-end="1439" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -183,15 +183,6 @@
         <entry file="file://$PROJECT_DIR$/EdgeNodesBinaryTree.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinaryTreeHeightCalculator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/binarytree/BinaryTreeHeightCalculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="39" selection-start="90" selection-end="116" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -215,7 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/binarytree/questions/PostOrderPreOrderBinaryTreeConstruction.java" />
         <option value="$PROJECT_DIR$/src/binarytree/questions/PostOrderInOrderBinaryTreeConstruction.java" />
         <option value="$PROJECT_DIR$/src/binarytree/BaseBinaryTreeOrderTraversal.java" />
         <option value="$PROJECT_DIR$/src/binarytree/BinaryTreeSerialization.java" />
@@ -231,6 +221,7 @@
         <option value="$PROJECT_DIR$/src/binarytree/questions/IterativeInorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/binarytree/questions/PrintEdgeNotes.java" />
         <option value="$PROJECT_DIR$/src/binarytree/questions/PrintEdgeNodes.java" />
+        <option value="$PROJECT_DIR$/src/binarytree/questions/IterativePostOrderTraversal.java" />
       </list>
     </option>
   </component>
@@ -284,6 +275,20 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQ-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQ-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -359,20 +364,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IQ-Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IQ-Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -399,35 +390,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IterativeInorderTraversal">
-    <configuration default="false" name="ReadBinaryTreeFromFile" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="binarytree.questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="binarytree.questions.ReadBinaryTreeFromFile" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="IQ-Java" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.IterativePostOrderTraversal">
     <configuration default="false" name="LevelOrderPrint" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -502,6 +465,28 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="binarytree.questions.IterativeInorderTraversal" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="IQ-Java" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="IterativePostOrderTraversal" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="binarytree.questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="binarytree.questions.IterativePostOrderTraversal" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -637,19 +622,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.NextRightPointer" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ReadBinaryTreeFromFile" />
-      <item index="2" class="java.lang.String" itemvalue="Application.LevelOrderPrint" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ZigZagPrinter" />
-      <item index="4" class="java.lang.String" itemvalue="Application.PrintEdgeNodes" />
-      <item index="5" class="java.lang.String" itemvalue="Application.IterativeInorderTraversal" />
+      <item index="1" class="java.lang.String" itemvalue="Application.LevelOrderPrint" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ZigZagPrinter" />
+      <item index="3" class="java.lang.String" itemvalue="Application.PrintEdgeNodes" />
+      <item index="4" class="java.lang.String" itemvalue="Application.IterativeInorderTraversal" />
+      <item index="5" class="java.lang.String" itemvalue="Application.IterativePostOrderTraversal" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.IterativeInorderTraversal" />
-        <item index="1" class="java.lang.String" itemvalue="Application.PrintEdgeNodes" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ZigZagPrinter" />
-        <item index="3" class="java.lang.String" itemvalue="Application.LevelOrderPrint" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ReadBinaryTreeFromFile" />
+        <item index="0" class="java.lang.String" itemvalue="Application.IterativePostOrderTraversal" />
+        <item index="1" class="java.lang.String" itemvalue="Application.IterativeInorderTraversal" />
+        <item index="2" class="java.lang.String" itemvalue="Application.PrintEdgeNodes" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ZigZagPrinter" />
+        <item index="4" class="java.lang.String" itemvalue="Application.LevelOrderPrint" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -711,18 +696,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36276084" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -730,8 +715,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.67736757" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24860558" sideWeight="0.67736757" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32263243" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31792828" sideWeight="0.6789727" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32102728" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -840,20 +825,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/binarytree/questions/ReadBSTFromFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="62" selection-start="2203" selection-end="2236" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/binarytree/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/binarytree/questions/ValidBinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="13" selection-start="1182" selection-end="1182" vertical-scroll-proportion="0.0">
@@ -861,16 +832,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BinaryTree">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LevelOrderBinaryTree">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/binarytree/BinaryTreeFactory.java">
@@ -922,13 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/binarytree/questions/ReadBinaryTreeFromFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="43" selection-start="2498" selection-end="2498" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EdgeNodesBinaryTree.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
@@ -945,9 +902,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/binarytree/questions/PrintEdgeNodes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="25" selection-start="301" selection-end="301" vertical-scroll-proportion="0.12820514">
+        <state line="12" column="25" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinaryTree">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/binarytree/questions/ReadBinaryTreeFromFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="13" selection-start="1372" selection-end="1394" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/binarytree/BaseBinaryTreeOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="0" selection-start="1439" selection-end="1439" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/binarytree/questions/IterativePostOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="159" column="5" selection-start="5941" selection-end="5941" vertical-scroll-proportion="7.1060605">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2308#2325#0" expanded="true" />
+            <element signature="e#2378#2395#0" expanded="true" />
+            <element signature="e#4057#4074#0" expanded="true" />
           </folding>
         </state>
       </provider>
