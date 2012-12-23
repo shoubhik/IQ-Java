@@ -51,12 +51,10 @@ public class BinaryTree {
 
     public BinaryTree(){
         root  = null;
-
     }
 
     public BinaryTree(Integer data){
         this.root = new Node(data);
-
     }
 
     public BinaryTree(Node root){
@@ -93,6 +91,10 @@ public class BinaryTree {
 
     public void setRoot(int data){
         this.root = new Node(data);
+    }
+
+    public void setRoot(Node root) {
+        this.root= root;
     }
 
     public void print(BinaryTreeWriter writer){
