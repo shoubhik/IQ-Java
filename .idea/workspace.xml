@@ -2,17 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MultiplyRecursion.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PhoneNumberWords.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PrimeFactorsOfANumber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PrintLastNLines.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UpperAndLowerCaseCombination.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/MutableInteger.java" afterPath="$PROJECT_DIR$/src/utils/MutableInteger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/backtracking/GeneralBackTrackingAlgo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/backtracking/PermutationOfAString.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/backtracking/PermutationOfAStringWithoutDuplicates.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/backtracking/PermutationsOfAString.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/backtracking/SubsetOfAGivenSet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/backtracking/SubsetProblem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/backtracking/UpperAndLowerCaseCombination.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UpperAndLowerCaseCombination.java" afterPath="$PROJECT_DIR$/src/UpperAndLowerCaseCombination.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="IQ-Java.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356732972033" ignored="false" />
+    <file path="/Dummy.txt" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356824843124" ignored="false" />
     <file path="/File Header.txt.ft" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1355024578693" ignored="false" />
     <file path="/NextRightPointer.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1355163729490" ignored="false" />
     <file path="/BinaryTreeWriter.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1355161298279" ignored="false" />
@@ -49,11 +51,19 @@
     <file path="/LinkList.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356281401995" ignored="false" />
     <file path="/BalancedBSTFromList.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356283251896" ignored="false" />
     <file path="/LowestCommonAncestorOfBST.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356285506165" ignored="false" />
-    <file path="/UpperAndLowerCaseCombination.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356637884506" ignored="false" />
+    <file path="/UpperAndLowerCaseCombination.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356810397491" ignored="false" />
     <file path="/MultiplyRecursion.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356643175827" ignored="false" />
     <file path="/PhoneNumberWords.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356734123191" ignored="false" />
     <file path="/PrimeFactorsOfANumber.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356736677701" ignored="false" />
     <file path="/PrintLastNLines.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356741636976" ignored="false" />
+    <file path="/PermutationsOfString.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356747080204" ignored="false" />
+    <file path="/GeneralBackTrackingAlgo.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356756192127" ignored="false" />
+    <file path="/SubsetProblem.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356757050636" ignored="false" />
+    <file path="/SubsetOfAGivenSet.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356808549757" ignored="false" />
+    <file path="/PermutaionOfAString.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356826800867" ignored="false" />
+    <file path="/PermutationOfAString.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356826455749" ignored="false" />
+    <file path="/PermutaionOfAStringWithoutDuplicates.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356831621281" ignored="false" />
+    <file path="/PermutationOfAStringWithoutDuplicates.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356828290206" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,20 +132,6 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/MultiplyRecursion.java" line="6" class="MultiplyRecursion" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
       <breakpoint url="file://$PROJECT_DIR$/src/PrimeFactorsOfANumber.java" line="15" class="PrimeFactorsOfANumber" package="">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
@@ -161,40 +157,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BalancedBSTFromList.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/binarytree/questions/BalancedBSTFromList.java">
+      <file leaf-file-name="UpperAndLowerCaseCombination.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UpperAndLowerCaseCombination.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="13" selection-start="2949" selection-end="2949" vertical-scroll-proportion="0.0">
+            <state line="17" column="36" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="UpperAndLowerCaseCombination.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UpperAndLowerCaseCombination.java">
+        <entry file="file://$PROJECT_DIR$/src/backtracking/UpperAndLowerCaseCombination.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
+            <state line="43" column="42" selection-start="1363" selection-end="1363" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MultiplyRecursion.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MultiplyRecursion.java">
+      <file leaf-file-name="PermutationsOfAString.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/backtracking/PermutationsOfAString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="21" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
+            <state line="29" column="0" selection-start="783" selection-end="783" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PhoneNumberWords.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PhoneNumberWords.java">
+      <file leaf-file-name="GeneralBackTrackingAlgo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/backtracking/GeneralBackTrackingAlgo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="46" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="41" column="0" selection-start="917" selection-end="917" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PermutationOfAString.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/backtracking/PermutationOfAString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="25" selection-start="1392" selection-end="1392" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PermutationOfAStringWithoutDuplicates.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/backtracking/PermutationOfAStringWithoutDuplicates.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="26" selection-start="1771" selection-end="1771" vertical-scroll-proportion="0.84745765">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubsetProblem.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/backtracking/SubsetProblem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="0" selection-start="758" selection-end="758" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubsetOfAGivenSet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/backtracking/SubsetOfAGivenSet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="52" selection-start="828" selection-end="828" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -208,46 +238,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LevelOrderPrint.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/binarytree/questions/LevelOrderPrint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrintLastNLines.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PrintLastNLines.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PrintLastNLines.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="373" selection-end="373" vertical-scroll-proportion="0.036931816">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MutableInteger.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/MutableInteger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="19" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PallindromeNumber.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PallindromeNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="911" selection-end="911" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Utils.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/Utils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="29" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0">
+            <state line="11" column="0" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -271,30 +265,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/binarytree/BinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/binarytree/questions/LargestBSTSubtree.java" />
-        <option value="$PROJECT_DIR$/src/binarytree/questions/BaqlancedBSTFromSortedArray.java" />
-        <option value="$PROJECT_DIR$/src/binarytree/questions/BalancedBSTFromSortedArray.java" />
-        <option value="$PROJECT_DIR$/src/utils/Utils.java" />
-        <option value="$PROJECT_DIR$/src/binarytree/questions/BalanacedBSTFromList.java" />
-        <option value="$PROJECT_DIR$/src/linklist/LinkList.java" />
-        <option value="$PROJECT_DIR$/src/binarytree/questions/BalancedBSTFromList.java" />
-        <option value="$PROJECT_DIR$/lowest-common-ancestor-BST.txt" />
-        <option value="$PROJECT_DIR$/src/binarytree/questions/LowestCommonAncestorOfBST.java" />
-        <option value="$PROJECT_DIR$/src/UpperAndLowerCaseCombination.java" />
-        <option value="$PROJECT_DIR$/src/MultiplyRecursion.java" />
         <option value="$PROJECT_DIR$/src/PhoneNumberWords.java" />
         <option value="$PROJECT_DIR$/src/PrimeFactorsOfANumber.java" />
         <option value="$PROJECT_DIR$/src/utils/MutableInteger.java" />
         <option value="$PROJECT_DIR$/src/PrintLastNLines.java" />
+        <option value="$PROJECT_DIR$/src/UpperAndLowerCaseCombination.java" />
+        <option value="$PROJECT_DIR$/src/backtracking/PermutationsOfString.java" />
+        <option value="$PROJECT_DIR$/src/backtracking/SubsetProblem.java" />
+        <option value="$PROJECT_DIR$/src/backtracking/GeneralBackTrackingAlgo.java" />
+        <option value="$PROJECT_DIR$/src/backtracking/PermutationsOfAString.java" />
+        <option value="$PROJECT_DIR$/src/backtracking/SubsetOfAGivenSet.java" />
+        <option value="$PROJECT_DIR$/src/backtracking/UpperAndLowerCaseCombination.java" />
+        <option value="$PROJECT_DIR$/src/backtracking/PermutaionOfAString.java" />
+        <option value="$PROJECT_DIR$/src/backtracking/t.java" />
+        <option value="$PROJECT_DIR$/src/backtracking/PermutaionOfAStringWithoutDuplicates.java" />
+        <option value="$PROJECT_DIR$/src/backtracking/PermutationOfAString.java" />
+        <option value="$PROJECT_DIR$/src/backtracking/PermutationOfAStringWithoutDuplicates.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-4" />
-    <option name="width" value="1303" />
-    <option name="height" value="773" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1301" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -340,21 +334,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IQ-Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IQ-Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -405,8 +384,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQ-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQ-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backtracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQ-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQ-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -433,10 +445,15 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrintLastNLines">
-    <configuration default="false" name="MultiplyRecursion" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="MultiplyRecursion" />
+  <component name="RunManager" selected="Application.PermutationOfAStringWithoutDuplicates">
+    <configuration default="false" name="SubsetProblem" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="backtracking.SubsetProblem" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -457,48 +474,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="PhoneNumberWords" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="PhoneNumberWords" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="IQ-Java" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PrimeFactorsOfANumber" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="PrimeFactorsOfANumber" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="IQ-Java" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="LevelOrderPrint" type="Application" factoryName="Application" temporary="true">
+    <configuration default="false" name="SubsetOfAGivenSet" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="binarytree.questions.*" />
+          <option name="PATTERN" value="backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="binarytree.questions.LevelOrderPrint" />
+      <option name="MAIN_CLASS_NAME" value="backtracking.SubsetOfAGivenSet" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -513,9 +496,64 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="PrintLastNLines" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="PrintLastNLines" />
+    <configuration default="false" name="UpperAndLowerCaseCombination" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="backtracking.UpperAndLowerCaseCombination" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="IQ-Java" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PermutationOfAString" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="backtracking.PermutationOfAString" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="IQ-Java" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PermutationOfAStringWithoutDuplicates" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="backtracking.PermutationOfAStringWithoutDuplicates" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -657,19 +695,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.NextRightPointer" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MultiplyRecursion" />
-      <item index="2" class="java.lang.String" itemvalue="Application.PhoneNumberWords" />
-      <item index="3" class="java.lang.String" itemvalue="Application.PrimeFactorsOfANumber" />
-      <item index="4" class="java.lang.String" itemvalue="Application.LevelOrderPrint" />
-      <item index="5" class="java.lang.String" itemvalue="Application.PrintLastNLines" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SubsetProblem" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SubsetOfAGivenSet" />
+      <item index="3" class="java.lang.String" itemvalue="Application.UpperAndLowerCaseCombination" />
+      <item index="4" class="java.lang.String" itemvalue="Application.PermutationOfAString" />
+      <item index="5" class="java.lang.String" itemvalue="Application.PermutationOfAStringWithoutDuplicates" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.PrintLastNLines" />
-        <item index="1" class="java.lang.String" itemvalue="Application.LevelOrderPrint" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PrimeFactorsOfANumber" />
-        <item index="3" class="java.lang.String" itemvalue="Application.PhoneNumberWords" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MultiplyRecursion" />
+        <item index="0" class="java.lang.String" itemvalue="Application.PermutationOfAStringWithoutDuplicates" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PermutationOfAString" />
+        <item index="2" class="java.lang.String" itemvalue="Application.UpperAndLowerCaseCombination" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SubsetOfAGivenSet" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SubsetProblem" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -730,7 +768,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
+    <frame x="65" y="24" width="1301" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258427" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -738,11 +776,11 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36276084" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36195287" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.6789727" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -750,8 +788,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.67736757" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31792828" sideWeight="0.6789727" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32102728" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31763768" sideWeight="0.61616164" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3838384" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24940239" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -860,77 +898,31 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/linklist/LinkList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="38" selection-start="1528" selection-end="1528" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/binarytree/questions/BalancedBSTFromSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="56" selection-start="1292" selection-end="1325" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TrivialBinaryTree">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lowest-common-ancestor-BST.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="1" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/binarytree/questions/ReadBSTFromFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="13" selection-start="2187" selection-end="2202" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/binarytree/questions/LowestCommonAncestorOfBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="2730" selection-end="2730" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PallindromeNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="911" selection-end="911" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="29" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="11" column="29" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/binarytree/questions/BalancedBSTFromList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="13" selection-start="2949" selection-end="2949" vertical-scroll-proportion="0.0">
+        <state line="71" column="13" selection-start="2949" selection-end="2949" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/binarytree/questions/LevelOrderPrint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/MutableInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="19" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MultiplyRecursion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="21" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UpperAndLowerCaseCombination.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
+        <state line="6" column="0" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -938,9 +930,7 @@
     <entry file="file://$PROJECT_DIR$/src/PhoneNumberWords.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="46" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -951,23 +941,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/binarytree/questions/LevelOrderPrint.java">
+    <entry file="file://$PROJECT_DIR$/src/backtracking/SubsetProblem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.0">
+        <state line="29" column="0" selection-start="758" selection-end="758" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/MutableInteger.java">
+    <entry file="file://$PROJECT_DIR$/src/backtracking/SubsetOfAGivenSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="19" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0">
+        <state line="30" column="52" selection-start="828" selection-end="828" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UpperAndLowerCaseCombination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="36" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backtracking/UpperAndLowerCaseCombination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="42" selection-start="1363" selection-end="1363" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PrintLastNLines.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="373" selection-end="373" vertical-scroll-proportion="0.036931816">
+        <state line="11" column="0" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backtracking/PermutationsOfAString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="783" selection-end="783" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backtracking/PermutationOfAString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="25" selection-start="1392" selection-end="1392" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backtracking/GeneralBackTrackingAlgo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="917" selection-end="917" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backtracking/PermutationOfAStringWithoutDuplicates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="26" selection-start="1771" selection-end="1771" vertical-scroll-proportion="0.84745765">
           <folding />
         </state>
       </provider>

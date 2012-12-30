@@ -27,7 +27,7 @@ public class UpperAndLowerCaseCombination {
     }
 
     public static void main(String[] args) {
-        String word = "ajay";
+        String word = "bankai";
         combination(word, new char[word.length()], 0);
     }
 }
