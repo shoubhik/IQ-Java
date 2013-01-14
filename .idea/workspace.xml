@@ -2,17 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arrays/ContinuousSequenceWithLargestSum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arrays/LeftRotateArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arrays/RearrangeArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arrays/RemoveDuplicateCharactersInString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arrays/RightRotateArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dynamicprogramming/BalancedPartitioning.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bitmanipulation/ClearBits.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arrays/CountSwapForZeroesAndOnes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arrays/FindCommonElements.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/binarytree/questions/LevelDiffCalc.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/backtracking/PermutationsOfIntegerArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arrays/RemoveElementWithSum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ReverseStringUsingRecursion.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/binarytree/questions/SearchInBSTRecursively.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arrays/SortZeroesAndOnes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arrays/SumLessThanCurrentNumber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TupleSubstitution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arrays/UniqueElementInTheArray.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/Utils.java" afterPath="$PROJECT_DIR$/src/utils/Utils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="IQ-Java.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356913221344" ignored="false" />
+    <file path="/Dummy.txt" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1358192910117" ignored="false" />
     <file path="/File Header.txt.ft" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1355024578693" ignored="false" />
     <file path="/NextRightPointer.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1355163729490" ignored="false" />
     <file path="/BinaryTreeWriter.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1355161298279" ignored="false" />
@@ -45,7 +53,7 @@
     <file path="/LargestBSTSubtree.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356122406359" ignored="false" />
     <file path="/MutableInteger.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356741174206" ignored="false" />
     <file path="/BalancedBSTFromSortedArray.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356125411788" ignored="false" />
-    <file path="/Utils.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356914951902" ignored="false" />
+    <file path="/Utils.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1357682927389" ignored="false" />
     <file path="/LinkList.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356281401995" ignored="false" />
     <file path="/BalancedBSTFromList.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356283251896" ignored="false" />
     <file path="/LowestCommonAncestorOfBST.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356285506165" ignored="false" />
@@ -67,6 +75,20 @@
     <file path="/RearrangeArray.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356930721365" ignored="false" />
     <file path="/RemoveDuplicateCharactersInString.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356934671071" ignored="false" />
     <file path="/ContinuousSequenceWithLargestSum.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356935324146" ignored="false" />
+    <file path="/UniqueElementInTheArray.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1357075598363" ignored="false" />
+    <file path="/SearchInBSTRecursively.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1357079962894" ignored="false" />
+    <file path="/RemoveElementWithSum.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1357131273759" ignored="false" />
+    <file path="/FindCommonElements.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1357132547906" ignored="false" />
+    <file path="/SortZeroesAndOnes.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1357133230025" ignored="false" />
+    <file path="/CountSwapForZeroesAndOnes.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1357134062032" ignored="false" />
+    <file path="/SumLessThanCurrentNumber.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1357139345059" ignored="false" />
+    <file path="/PermutationsOfIntegerArray.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1357157113186" ignored="false" />
+    <file path="/BlancedPartitioning.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1357419835659" ignored="false" />
+    <file path="/BalancedPartitioning.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1357419828941" ignored="false" />
+    <file path="/ClearBits.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1357682628860" ignored="false" />
+    <file path="/TupleSubstitution.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1357795191716" ignored="false" />
+    <file path="/ReverseStringUsingRecursion.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1357796506395" ignored="false" />
+    <file path="/LevelDiffCalc.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1358193890100" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,41 +107,12 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
+  </component>
   <component name="DebuggerManager">
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/binarytree/questions/LowestCommonAncestorOfBST.java" line="17" class="binarytree.questions.LowestCommonAncestorOfBST" package="binarytree.questions">
         <option name="ENABLED" value="true" />
@@ -177,8 +170,70 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/arrays/RemoveElementWithSum.java" line="27" class="arrays.RemoveElementWithSum" package="arrays">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/binarytree/questions/LevelDiffCalc.java" line="21" class="binarytree.questions.LevelDiffCalc" package="binarytree.questions">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -188,84 +243,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GeneralBackTrackingAlgo.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/backtracking/GeneralBackTrackingAlgo.java">
+      <file leaf-file-name="ClearBits.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bitmanipulation/ClearBits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="917" selection-end="917" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PermutationOfAStringWithoutDuplicates.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/backtracking/PermutationOfAStringWithoutDuplicates.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="30" selection-start="1440" selection-end="1440" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BalancedBSTFromList.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/binarytree/questions/BalancedBSTFromList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="75" selection-start="3155" selection-end="3155" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RightRotateArray.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arrays/RightRotateArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="42" selection-start="294" selection-end="313" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeftRotateArray.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arrays/LeftRotateArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RearrangeArray.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arrays/RearrangeArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="0" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RemoveDuplicateCharactersInString.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arrays/RemoveDuplicateCharactersInString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="26" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContinuousSequenceWithLargestSum.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/arrays/ContinuousSequenceWithLargestSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="7" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.8901099">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Math.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/rt.jar!/java/lang/Math.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="25" selection-start="1434" selection-end="1434" vertical-scroll-proportion="0.0">
+            <state line="22" column="49" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -274,7 +255,82 @@
       <file leaf-file-name="Utils.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="25" selection-start="349" selection-end="381" vertical-scroll-proportion="0.0">
+            <state line="41" column="18" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpperAndLowerCaseCombination.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/backtracking/UpperAndLowerCaseCombination.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="13" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpperAndLowerCaseCombination.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UpperAndLowerCaseCombination.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="13" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TupleSubstitution.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TupleSubstitution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="10" selection-start="236" selection-end="698" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReverseStringUsingRecursion.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ReverseStringUsingRecursion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="7" selection-start="164" selection-end="512" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LevelOrderPrint.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/binarytree/questions/LevelOrderPrint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="122" column="47" selection-start="3332" selection-end="3560" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LevelDiffCalc.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/binarytree/questions/LevelDiffCalc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="26" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#847#864#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadBinaryTreeFromFile.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/binarytree/questions/ReadBinaryTreeFromFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="52" selection-start="1459" selection-end="1459" vertical-scroll-proportion="0.42675158">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LowestCommonAncestorOfBST.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/binarytree/questions/LowestCommonAncestorOfBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="62" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -298,30 +354,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/backtracking/SubsetProblem.java" />
-        <option value="$PROJECT_DIR$/src/backtracking/GeneralBackTrackingAlgo.java" />
-        <option value="$PROJECT_DIR$/src/backtracking/PermutationsOfAString.java" />
-        <option value="$PROJECT_DIR$/src/backtracking/SubsetOfAGivenSet.java" />
-        <option value="$PROJECT_DIR$/src/backtracking/UpperAndLowerCaseCombination.java" />
-        <option value="$PROJECT_DIR$/src/backtracking/PermutaionOfAString.java" />
-        <option value="$PROJECT_DIR$/src/backtracking/t.java" />
-        <option value="$PROJECT_DIR$/src/backtracking/PermutaionOfAStringWithoutDuplicates.java" />
-        <option value="$PROJECT_DIR$/src/backtracking/PermutationOfAString.java" />
-        <option value="$PROJECT_DIR$/src/backtracking/PermutationOfAStringWithoutDuplicates.java" />
+        <option value="$PROJECT_DIR$/src/arrays/UniqueElementInTheArray.java" />
+        <option value="$PROJECT_DIR$/src/binarytree/questions/SearchInBSTRecursively.java" />
+        <option value="$PROJECT_DIR$/src/arrays/RemoveElementWithSum.java" />
+        <option value="$PROJECT_DIR$/src/arrays/FindCommonElements.java" />
+        <option value="$PROJECT_DIR$/src/arrays/SortZeroesAndOnes.java" />
+        <option value="$PROJECT_DIR$/src/arrays/CountSwapForZeroesAndOnes.java" />
+        <option value="$PROJECT_DIR$/src/arrays/SumLessThanCurrentNumber.java" />
+        <option value="$PROJECT_DIR$/src/backtracking/PermutationsOfIntegerArray.java" />
+        <option value="$PROJECT_DIR$/src/dynamicprogramming/BlancedPartitioning.java" />
+        <option value="$PROJECT_DIR$/src/dynamicprogramming/BalancedPartitioning.java" />
+        <option value="$PROJECT_DIR$/src/bitmanipulation.java" />
+        <option value="$PROJECT_DIR$/src/bitmanipulation/ClearBits.java" />
         <option value="$PROJECT_DIR$/src/utils/Utils.java" />
-        <option value="$PROJECT_DIR$/src/arrays/RightRotateArray.java" />
-        <option value="$PROJECT_DIR$/src/arrays/LeftRotateArray.java" />
-        <option value="$PROJECT_DIR$/src/arrays/RearrangeArray.java" />
-        <option value="$PROJECT_DIR$/src/arrays/RemoveDuplicateCharactersInString.java" />
-        <option value="$PROJECT_DIR$/src/arrays/ContinuousSequenceWithLargestSum.java" />
+        <option value="$PROJECT_DIR$/src/TupleSubstitution.java" />
+        <option value="$PROJECT_DIR$/src/ReverseStringUsingRecursion.java" />
+        <option value="$PROJECT_DIR$/src/binarytree/questions/LevelDiffCalc.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1301" />
-    <option name="height" value="744" />
+    <option name="x" value="64" />
+    <option name="y" value="-4" />
+    <option name="width" value="1303" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -367,20 +423,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IQ-Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IQ-Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -428,8 +470,116 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="arrays" />
+              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQ-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQ-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dynamicprogramming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQ-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQ-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitmanipulation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQ-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQ-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binarytree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQ-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQ-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binarytree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="questions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQ-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQ-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backtracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQ-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQ-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -439,14 +589,14 @@
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Project" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="73" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="83" />
-    <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.0" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="83" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="74" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="88" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="978" />
@@ -468,23 +618,18 @@
     <property name="options.lastSelected" value="editor" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ContinuousSequenceWithLargestSum">
-    <configuration default="false" name="RightRotateArray" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="arrays.RightRotateArray" />
+  <component name="RunManager" selected="Application.LowestCommonAncestorOfBST">
+    <configuration default="false" name="TupleSubstitution" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="TupleSubstitution" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -499,36 +644,9 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="LeftRotateArray" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="arrays.LeftRotateArray" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="IQ-Java" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="RearrangeArray" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="arrays.RearrangeArray" />
+    <configuration default="false" name="ReverseStringUsingRecursion" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ReverseStringUsingRecursion" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -549,14 +667,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="RemoveDuplicateCharactersInString" type="Application" factoryName="Application" temporary="true">
+    <configuration default="false" name="LevelDiffCalc" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="binarytree.questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="arrays.RemoveDuplicateCharactersInString" />
+      <option name="MAIN_CLASS_NAME" value="binarytree.questions.LevelDiffCalc" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -577,14 +695,36 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="ContinuousSequenceWithLargestSum" type="Application" factoryName="Application" temporary="true">
+    <configuration default="false" name="ReadBinaryTreeFromFile" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="binarytree.questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="arrays.ContinuousSequenceWithLargestSum" />
+      <option name="MAIN_CLASS_NAME" value="binarytree.questions.ReadBinaryTreeFromFile" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="IQ-Java" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LowestCommonAncestorOfBST" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="binarytree.questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="binarytree.questions.LowestCommonAncestorOfBST" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -613,6 +753,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -639,19 +792,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -720,19 +860,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.NextRightPointer" />
-      <item index="1" class="java.lang.String" itemvalue="Application.RightRotateArray" />
-      <item index="2" class="java.lang.String" itemvalue="Application.LeftRotateArray" />
-      <item index="3" class="java.lang.String" itemvalue="Application.RearrangeArray" />
-      <item index="4" class="java.lang.String" itemvalue="Application.RemoveDuplicateCharactersInString" />
-      <item index="5" class="java.lang.String" itemvalue="Application.ContinuousSequenceWithLargestSum" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TupleSubstitution" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ReverseStringUsingRecursion" />
+      <item index="3" class="java.lang.String" itemvalue="Application.LevelDiffCalc" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ReadBinaryTreeFromFile" />
+      <item index="5" class="java.lang.String" itemvalue="Application.LowestCommonAncestorOfBST" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ContinuousSequenceWithLargestSum" />
-        <item index="1" class="java.lang.String" itemvalue="Application.RemoveDuplicateCharactersInString" />
-        <item index="2" class="java.lang.String" itemvalue="Application.RearrangeArray" />
-        <item index="3" class="java.lang.String" itemvalue="Application.LeftRotateArray" />
-        <item index="4" class="java.lang.String" itemvalue="Application.RightRotateArray" />
+        <item index="0" class="java.lang.String" itemvalue="Application.LowestCommonAncestorOfBST" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ReadBinaryTreeFromFile" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LevelDiffCalc" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ReverseStringUsingRecursion" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TupleSubstitution" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -793,33 +933,33 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="0" />
+    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258427" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36195287" sideWeight="0.49720672" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.6179775" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3611557" sideWeight="0.49720672" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36195287" sideWeight="0.49720672" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.6789727" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32718122" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32659933" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258427" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24860558" sideWeight="0.21508828" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.67736757" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31763768" sideWeight="0.61616164" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3838384" sideWeight="0.49720672" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31633466" sideWeight="0.6179775" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38202247" sideWeight="0.49720672" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24940239" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven-2 Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven-2 Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -927,116 +1067,113 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/backtracking/SubsetOfAGivenSet.java">
+    <entry file="file://$PROJECT_DIR$/src/arrays/CountSwapForZeroesAndOnes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="52" selection-start="828" selection-end="828" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="38" column="38" selection-start="1277" selection-end="1277" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UpperAndLowerCaseCombination.java">
+    <entry file="file://$PROJECT_DIR$/src/arrays/SumLessThanCurrentNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="36" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="34" column="62" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/backtracking/UpperAndLowerCaseCombination.java">
+    <entry file="file://$PROJECT_DIR$/src/backtracking/PermutationOfAString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="42" selection-start="1363" selection-end="1363" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PrintLastNLines.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
+        <state line="7" column="13" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/backtracking/PermutationsOfAString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="783" selection-end="783" vertical-scroll-proportion="0.0">
+        <state line="41" column="13" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/backtracking/PermutationOfAString.java">
+    <entry file="file://$PROJECT_DIR$/src/backtracking/PermutationsOfIntegerArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="25" selection-start="1392" selection-end="1392" vertical-scroll-proportion="0.0">
+        <state line="41" column="43" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/backtracking/GeneralBackTrackingAlgo.java">
+    <entry file="file://$PROJECT_DIR$/src/dynamicprogramming/BalancedPartitioning.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="917" selection-end="917" vertical-scroll-proportion="0.0">
+        <state line="29" column="38" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/backtracking/PermutationOfAStringWithoutDuplicates.java">
+    <entry file="file://$PROJECT_DIR$/src/bitmanipulation/ClearBits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="30" selection-start="1440" selection-end="1440" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/binarytree/questions/BalancedBSTFromList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="75" selection-start="3155" selection-end="3155" vertical-scroll-proportion="0.0">
+        <state line="22" column="49" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="25" selection-start="349" selection-end="381" vertical-scroll-proportion="0.0">
+        <state line="41" column="18" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/LeftRotateArray.java">
+    <entry file="file://$PROJECT_DIR$/src/backtracking/UpperAndLowerCaseCombination.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="7" column="13" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/RightRotateArray.java">
+    <entry file="file://$PROJECT_DIR$/src/UpperAndLowerCaseCombination.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="42" selection-start="294" selection-end="313" vertical-scroll-proportion="0.0">
+        <state line="13" column="13" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/rt.jar!/java/lang/Math.class">
+    <entry file="file://$PROJECT_DIR$/src/TupleSubstitution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="25" selection-start="1434" selection-end="1434" vertical-scroll-proportion="0.0">
+        <state line="26" column="10" selection-start="236" selection-end="698" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/RearrangeArray.java">
+    <entry file="file://$PROJECT_DIR$/src/ReverseStringUsingRecursion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.0">
+        <state line="14" column="7" selection-start="164" selection-end="512" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/binarytree/questions/LevelOrderPrint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="47" selection-start="3332" selection-end="3560" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/binarytree/questions/LevelDiffCalc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="26" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#847#864#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/RemoveDuplicateCharactersInString.java">
+    <entry file="file://$PROJECT_DIR$/src/binarytree/questions/LowestCommonAncestorOfBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="26" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
+        <state line="9" column="62" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/ContinuousSequenceWithLargestSum.java">
+    <entry file="file://$PROJECT_DIR$/src/binarytree/questions/ReadBinaryTreeFromFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="7" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.8901099">
+        <state line="45" column="52" selection-start="1459" selection-end="1459" vertical-scroll-proportion="0.42675158">
           <folding />
         </state>
       </provider>

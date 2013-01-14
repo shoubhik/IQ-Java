@@ -27,4 +27,20 @@ public class Utils {
         return sb.toString();
 
     }
+
+    public static String toBinary(int num){
+        return Integer.toBinaryString(num);
+    }
+
+    public static String toBinaryWithIndex(int num, int...indeces){
+        StringBuilder sb = new StringBuilder();
+        sb.append(Integer.toBinaryString(num));
+        sb.append("\n");
+        for(int  i = 31; i >= 0; i--) {
+            for(int idx: indeces){
+//                if()
+            }
+        }
+        return Integer.toBinaryString(num);
+    }
 }
