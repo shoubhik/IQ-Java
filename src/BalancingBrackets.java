@@ -32,13 +32,9 @@ public class BalancingBrackets {
                 stack.push(val);
             else
             {
-                if(stack.isEmpty())
+                if(stack.isEmpty() || val + stack.pop() != 0)
                     return false;
-
-                int poppedVal = stack.pop();
-                if(val + poppedVal != 0)
-                    return false;
-            }
+           }
         }
         return stack.isEmpty();
     }
@@ -51,6 +47,9 @@ public class BalancingBrackets {
         System.out.printf("input = %s , isvalid = %b\n", str, isCorrect(str));
 
         str = "{())";
+        System.out.printf("input = %s , isvalid = %b\n", str, isCorrect(str));
+
+        str = "][";
         System.out.printf("input = %s , isvalid = %b\n", str, isCorrect(str));
     }
 }
