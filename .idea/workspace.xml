@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/divideandconquer/KthDistantPoint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/divideandconquer/QuickSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/linklist/CopyLinkListWithRandomNodes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/linklist/DivideIntoTwoLinkList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arrays/IsIntegerArrayASet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LongestCharacterSequence.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/linklist/ReverseLinkList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/linklist/LinkList.java" afterPath="$PROJECT_DIR$/src/linklist/LinkList.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="IQ-Java.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1358212712002" ignored="false" />
+    <file path="/Dummy.txt" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1359151146145" ignored="false" />
     <file path="/File Header.txt.ft" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1355024578693" ignored="false" />
     <file path="/NextRightPointer.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1355163729490" ignored="false" />
     <file path="/BinaryTreeWriter.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1355161298279" ignored="false" />
@@ -42,7 +46,7 @@
     <file path="/MutableInteger.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356741174206" ignored="false" />
     <file path="/BalancedBSTFromSortedArray.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356125411788" ignored="false" />
     <file path="/Utils.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1357682927389" ignored="false" />
-    <file path="/LinkList.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356281401995" ignored="false" />
+    <file path="/LinkList.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1359155851197" ignored="false" />
     <file path="/BalancedBSTFromList.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356283251896" ignored="false" />
     <file path="/LowestCommonAncestorOfBST.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356285506165" ignored="false" />
     <file path="/UpperAndLowerCaseCombination.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356810397491" ignored="false" />
@@ -79,6 +83,11 @@
     <file path="/LevelDiffCalc.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1358193890100" ignored="false" />
     <file path="/QuickSort.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1358214344850" ignored="false" />
     <file path="/KthDistantPoint.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1358217109445" ignored="false" />
+    <file path="/LongestCharacterSequence.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1359143440524" ignored="false" />
+    <file path="/IsIntegerArrayASet.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1359145079597" ignored="false" />
+    <file path="/ReverseLinkList.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1359154375978" ignored="false" />
+    <file path="/DivideIntoTwoLinkList.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1359154429500" ignored="false" />
+    <file path="/CopyLinkListWithRandomNodes.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1359156445358" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +99,11 @@
     <leftPanel />
     <rightPanel />
     <splitter proportion="0.5" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/IQ-Java$DivideIntoTwoLinkList.coverage" NAME="DivideIntoTwoLinkList Coverage Results" MODIFIED="1359150079042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>linklist.*</FILTER>
+    </SUITE>
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="$PROJECT_DIR$" />
@@ -202,6 +216,62 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/linklist/DivideIntoTwoLinkList.java" line="20" class="linklist.DivideIntoTwoLinkList" package="linklist">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/linklist/LinkList.java" line="150" class="linklist.LinkList" package="linklist">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/linklist/LinkList.java" line="130" class="linklist.LinkList" package="linklist">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/linklist/LinkList.java" line="46" class="linklist.LinkList" package="linklist">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
@@ -247,60 +317,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UpperAndLowerCaseCombination.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/backtracking/UpperAndLowerCaseCombination.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UpperAndLowerCaseCombination.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UpperAndLowerCaseCombination.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TupleSubstitution.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TupleSubstitution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="10" selection-start="236" selection-end="698" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReverseStringUsingRecursion.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ReverseStringUsingRecursion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="7" selection-start="164" selection-end="512" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LevelOrderPrint.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/binarytree/questions/LevelOrderPrint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="47" selection-start="3332" selection-end="3560" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LevelDiffCalc.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/binarytree/questions/LevelDiffCalc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="26" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ReadBinaryTreeFromFile.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/binarytree/questions/ReadBinaryTreeFromFile.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -319,14 +335,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KthDistantPoint.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="KthDistantPoint.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/divideandconquer/KthDistantPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="21" selection-start="2965" selection-end="2965" vertical-scroll-proportion="0.89726025">
+            <state line="93" column="21" selection-start="2965" selection-end="2965" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2563#2572#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkList.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/linklist/LinkList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="133" column="0" selection-start="2807" selection-end="2958" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CopyLinkListWithRandomNodes.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/linklist/CopyLinkListWithRandomNodes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="43" selection-start="2240" selection-end="2240" vertical-scroll-proportion="0.9047619">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#735#781#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongestCharacterSequence.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LongestCharacterSequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="0" selection-start="1187" selection-end="1187" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IsIntegerArrayASet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/arrays/IsIntegerArrayASet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="78" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReverseLinkList.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/linklist/ReverseLinkList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="57" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DivideIntoTwoLinkList.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/linklist/DivideIntoTwoLinkList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="58" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -358,12 +431,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/arrays/FindCommonElements.java" />
-        <option value="$PROJECT_DIR$/src/arrays/SortZeroesAndOnes.java" />
-        <option value="$PROJECT_DIR$/src/arrays/CountSwapForZeroesAndOnes.java" />
-        <option value="$PROJECT_DIR$/src/arrays/SumLessThanCurrentNumber.java" />
-        <option value="$PROJECT_DIR$/src/backtracking/PermutationsOfIntegerArray.java" />
-        <option value="$PROJECT_DIR$/src/dynamicprogramming/BlancedPartitioning.java" />
         <option value="$PROJECT_DIR$/src/dynamicprogramming/BalancedPartitioning.java" />
         <option value="$PROJECT_DIR$/src/bitmanipulation.java" />
         <option value="$PROJECT_DIR$/src/bitmanipulation/ClearBits.java" />
@@ -374,6 +441,12 @@
         <option value="$PROJECT_DIR$/src/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/divideandconquer/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/divideandconquer/KthDistantPoint.java" />
+        <option value="$PROJECT_DIR$/src/LongestCharacterSequence.java" />
+        <option value="$PROJECT_DIR$/src/arrays/IsIntegerArrayASet.java" />
+        <option value="$PROJECT_DIR$/src/linklist/ReverseLinkList.java" />
+        <option value="$PROJECT_DIR$/src/linklist/DivideIntoTwoLinkList.java" />
+        <option value="$PROJECT_DIR$/src/linklist/LinkList.java" />
+        <option value="$PROJECT_DIR$/src/linklist/CopyLinkListWithRandomNodes.java" />
       </list>
     </option>
   </component>
@@ -427,6 +500,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -473,43 +547,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dynamicprogramming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IQ-Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IQ-Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="divideandconquer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IQ-Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IQ-Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitmanipulation" />
+              <option name="myItemId" value="linklist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -529,21 +567,21 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Project" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="73" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="83" />
-    <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.0" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="83" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="74" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jgrapht/pom.xml" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="88" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="978" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="979" />
@@ -564,23 +602,62 @@
     <property name="options.lastSelected" value="editor" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KthDistantPoint">
-    <configuration default="false" name="LevelDiffCalc" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="Application.CopyLinkListWithRandomNodes">
+    <configuration default="false" name="LongestCharacterSequence" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="LongestCharacterSequence" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="IQ-Java" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="IsIntegerArrayASet" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="binarytree.questions.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="binarytree.questions.LevelDiffCalc" />
+      <option name="MAIN_CLASS_NAME" value="arrays.IsIntegerArrayASet" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="IQ-Java" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ReverseLinkList" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="linklist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="linklist.ReverseLinkList" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -601,14 +678,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="ReadBinaryTreeFromFile" type="Application" factoryName="Application" temporary="true">
+    <configuration default="false" name="DivideIntoTwoLinkList" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="binarytree.questions.*" />
+          <option name="PATTERN" value="linklist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="binarytree.questions.ReadBinaryTreeFromFile" />
+      <option name="MAIN_CLASS_NAME" value="linklist.DivideIntoTwoLinkList" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -619,62 +696,26 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="IQ-Java" />
       <envs />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Cover" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="LowestCommonAncestorOfBST" type="Application" factoryName="Application" temporary="true">
+    <configuration default="false" name="CopyLinkListWithRandomNodes" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="binarytree.questions.*" />
+          <option name="PATTERN" value="linklist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="binarytree.questions.LowestCommonAncestorOfBST" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="IQ-Java" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="QuickSort" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="divideandconquer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="divideandconquer.QuickSort" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="IQ-Java" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="KthDistantPoint" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="divideandconquer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="divideandconquer.KthDistantPoint" />
+      <option name="MAIN_CLASS_NAME" value="linklist.CopyLinkListWithRandomNodes" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -709,6 +750,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -735,19 +789,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -816,19 +857,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.NextRightPointer" />
-      <item index="1" class="java.lang.String" itemvalue="Application.LevelDiffCalc" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ReadBinaryTreeFromFile" />
-      <item index="3" class="java.lang.String" itemvalue="Application.LowestCommonAncestorOfBST" />
-      <item index="4" class="java.lang.String" itemvalue="Application.QuickSort" />
-      <item index="5" class="java.lang.String" itemvalue="Application.KthDistantPoint" />
+      <item index="1" class="java.lang.String" itemvalue="Application.LongestCharacterSequence" />
+      <item index="2" class="java.lang.String" itemvalue="Application.IsIntegerArrayASet" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ReverseLinkList" />
+      <item index="4" class="java.lang.String" itemvalue="Application.DivideIntoTwoLinkList" />
+      <item index="5" class="java.lang.String" itemvalue="Application.CopyLinkListWithRandomNodes" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.KthDistantPoint" />
-        <item index="1" class="java.lang.String" itemvalue="Application.QuickSort" />
-        <item index="2" class="java.lang.String" itemvalue="Application.LowestCommonAncestorOfBST" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ReadBinaryTreeFromFile" />
-        <item index="4" class="java.lang.String" itemvalue="Application.LevelDiffCalc" />
+        <item index="0" class="java.lang.String" itemvalue="Application.CopyLinkListWithRandomNodes" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DivideIntoTwoLinkList" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ReverseLinkList" />
+        <item index="3" class="java.lang.String" itemvalue="Application.IsIntegerArrayASet" />
+        <item index="4" class="java.lang.String" itemvalue="Application.LongestCharacterSequence" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -904,18 +945,19 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.6789727" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32718122" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258427" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.61958265" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24860558" sideWeight="0.21508828" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.67736757" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31633466" sideWeight="0.6179775" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38202247" sideWeight="0.49720672" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31633466" sideWeight="0.61958265" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38041735" sideWeight="0.49720672" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24940239" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven-2 Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven-2 Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1023,48 +1065,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/backtracking/PermutationOfAString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/backtracking/PermutationsOfAString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="13" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/backtracking/PermutationsOfIntegerArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="43" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dynamicprogramming/BalancedPartitioning.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="38" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bitmanipulation/ClearBits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="49" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="18" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/backtracking/UpperAndLowerCaseCombination.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="13" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
@@ -1130,10 +1130,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/divideandconquer/KthDistantPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="21" selection-start="2965" selection-end="2965" vertical-scroll-proportion="0.89726025">
+        <state line="93" column="21" selection-start="2965" selection-end="2965" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2563#2572#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LongestCharacterSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="1187" selection-end="1187" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/IsIntegerArrayASet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="78" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linklist/ReverseLinkList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="57" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linklist/DivideIntoTwoLinkList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="58" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linklist/LinkList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="0" selection-start="2807" selection-end="2958" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linklist/CopyLinkListWithRandomNodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="43" selection-start="2240" selection-end="2240" vertical-scroll-proportion="0.9047619">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#735#781#0" expanded="true" />
           </folding>
         </state>
       </provider>
