@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/linklist/CopyLinkListWithRandomNodes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/linklist/DivideIntoTwoLinkList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arrays/IsIntegerArrayASet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LongestCharacterSequence.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/linklist/ReverseLinkList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/linklist/LinkList.java" afterPath="$PROJECT_DIR$/src/linklist/LinkList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BalancingBrackets.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="IQ-Java.iws" />
@@ -88,6 +83,7 @@
     <file path="/ReverseLinkList.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1359154375978" ignored="false" />
     <file path="/DivideIntoTwoLinkList.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1359154429500" ignored="false" />
     <file path="/CopyLinkListWithRandomNodes.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1359156445358" ignored="false" />
+    <file path="/BalancingBrackets.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1359157681592" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -317,15 +313,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ReadBinaryTreeFromFile.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/binarytree/questions/ReadBinaryTreeFromFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="0" selection-start="1786" selection-end="1786" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="QuickSort.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/divideandconquer/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -356,13 +343,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CopyLinkListWithRandomNodes.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CopyLinkListWithRandomNodes.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/linklist/CopyLinkListWithRandomNodes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="43" selection-start="2240" selection-end="2240" vertical-scroll-proportion="0.9047619">
+            <state line="65" column="43" selection-start="2240" selection-end="2240" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#735#781#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BalancingBrackets.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BalancingBrackets.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="0" selection-start="693" selection-end="693" vertical-scroll-proportion="-0.6666667">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#440#460#0" expanded="true" />
+                <element signature="e#733#742#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -431,7 +431,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/dynamicprogramming/BalancedPartitioning.java" />
         <option value="$PROJECT_DIR$/src/bitmanipulation.java" />
         <option value="$PROJECT_DIR$/src/bitmanipulation/ClearBits.java" />
         <option value="$PROJECT_DIR$/src/utils/Utils.java" />
@@ -447,6 +446,7 @@
         <option value="$PROJECT_DIR$/src/linklist/DivideIntoTwoLinkList.java" />
         <option value="$PROJECT_DIR$/src/linklist/LinkList.java" />
         <option value="$PROJECT_DIR$/src/linklist/CopyLinkListWithRandomNodes.java" />
+        <option value="$PROJECT_DIR$/src/BalancingBrackets.java" />
       </list>
     </option>
   </component>
@@ -533,24 +533,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IQ-Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IQ-Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="linklist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane">
@@ -610,24 +592,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CopyLinkListWithRandomNodes">
-    <configuration default="false" name="LongestCharacterSequence" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="LongestCharacterSequence" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="IQ-Java" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.BalancingBrackets">
     <configuration default="false" name="IsIntegerArrayASet" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -716,6 +681,29 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="linklist.CopyLinkListWithRandomNodes" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="IQ-Java" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BalancingBrackets" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="BalancingBrackets" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -857,19 +845,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.NextRightPointer" />
-      <item index="1" class="java.lang.String" itemvalue="Application.LongestCharacterSequence" />
-      <item index="2" class="java.lang.String" itemvalue="Application.IsIntegerArrayASet" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ReverseLinkList" />
-      <item index="4" class="java.lang.String" itemvalue="Application.DivideIntoTwoLinkList" />
-      <item index="5" class="java.lang.String" itemvalue="Application.CopyLinkListWithRandomNodes" />
+      <item index="1" class="java.lang.String" itemvalue="Application.IsIntegerArrayASet" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ReverseLinkList" />
+      <item index="3" class="java.lang.String" itemvalue="Application.DivideIntoTwoLinkList" />
+      <item index="4" class="java.lang.String" itemvalue="Application.CopyLinkListWithRandomNodes" />
+      <item index="5" class="java.lang.String" itemvalue="Application.BalancingBrackets" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.CopyLinkListWithRandomNodes" />
-        <item index="1" class="java.lang.String" itemvalue="Application.DivideIntoTwoLinkList" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ReverseLinkList" />
-        <item index="3" class="java.lang.String" itemvalue="Application.IsIntegerArrayASet" />
-        <item index="4" class="java.lang.String" itemvalue="Application.LongestCharacterSequence" />
+        <item index="0" class="java.lang.String" itemvalue="Application.BalancingBrackets" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CopyLinkListWithRandomNodes" />
+        <item index="2" class="java.lang.String" itemvalue="Application.DivideIntoTwoLinkList" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ReverseLinkList" />
+        <item index="4" class="java.lang.String" itemvalue="Application.IsIntegerArrayASet" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -952,7 +940,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.67736757" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31633466" sideWeight="0.61958265" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38041735" sideWeight="0.49720672" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38041735" sideWeight="0.49720672" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24940239" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1065,13 +1053,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/backtracking/UpperAndLowerCaseCombination.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/UpperAndLowerCaseCombination.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="13" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
@@ -1175,10 +1156,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/linklist/CopyLinkListWithRandomNodes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="43" selection-start="2240" selection-end="2240" vertical-scroll-proportion="0.9047619">
+        <state line="65" column="43" selection-start="2240" selection-end="2240" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#735#781#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BalancingBrackets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="693" selection-end="693" vertical-scroll-proportion="-0.6666667">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#440#460#0" expanded="true" />
+            <element signature="e#733#742#0" expanded="true" />
           </folding>
         </state>
       </provider>
