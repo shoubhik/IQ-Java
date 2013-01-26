@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BalancingBrackets.java" afterPath="$PROJECT_DIR$/src/BalancingBrackets.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/linklist/InsertNodeInSortedList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="IQ-Java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,6 +84,8 @@
     <file path="/DivideIntoTwoLinkList.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1359154429500" ignored="false" />
     <file path="/CopyLinkListWithRandomNodes.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1359156445358" ignored="false" />
     <file path="/BalancingBrackets.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1359157906895" ignored="false" />
+    <file path="/InsertNodeInSoretdList.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1359158865702" ignored="false" />
+    <file path="/InsertNodeInSortedList.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1359158783499" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,31 +315,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="QuickSort.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/divideandconquer/QuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="71" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KthDistantPoint.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/divideandconquer/KthDistantPoint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="21" selection-start="2965" selection-end="2965" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2563#2572#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LinkList.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/linklist/LinkList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="133" column="0" selection-start="2807" selection-end="2958" vertical-scroll-proportion="0.0">
+            <state line="129" column="78" selection-start="2836" selection-end="2836" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -345,7 +327,7 @@
       <file leaf-file-name="CopyLinkListWithRandomNodes.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/linklist/CopyLinkListWithRandomNodes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="43" selection-start="2240" selection-end="2240" vertical-scroll-proportion="0.0">
+            <state line="65" column="0" selection-start="2240" selection-end="2240" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#735#781#0" expanded="true" />
@@ -354,15 +336,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BalancingBrackets.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BalancingBrackets.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BalancingBrackets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="17" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.85714287">
+            <state line="48" column="21" selection-start="1358" selection-end="1358" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#440#460#0" expanded="true" />
                 <element signature="e#733#742#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MutableInteger.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/MutableInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="13" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utils.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="13" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InsertNodeInSortedList.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/linklist/InsertNodeInSortedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -379,7 +388,7 @@
       <file leaf-file-name="IsIntegerArrayASet.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/arrays/IsIntegerArrayASet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="78" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
+            <state line="9" column="9" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -388,7 +397,7 @@
       <file leaf-file-name="ReverseLinkList.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/linklist/ReverseLinkList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="57" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0">
+            <state line="23" column="55" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -398,15 +407,6 @@
         <entry file="file://$PROJECT_DIR$/src/linklist/DivideIntoTwoLinkList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="9" column="58" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LowestCommonAncestorOfBST.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/binarytree/questions/LowestCommonAncestorOfBST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="62" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -430,8 +430,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/bitmanipulation.java" />
-        <option value="$PROJECT_DIR$/src/bitmanipulation/ClearBits.java" />
         <option value="$PROJECT_DIR$/src/utils/Utils.java" />
         <option value="$PROJECT_DIR$/src/TupleSubstitution.java" />
         <option value="$PROJECT_DIR$/src/ReverseStringUsingRecursion.java" />
@@ -446,6 +444,8 @@
         <option value="$PROJECT_DIR$/src/linklist/LinkList.java" />
         <option value="$PROJECT_DIR$/src/linklist/CopyLinkListWithRandomNodes.java" />
         <option value="$PROJECT_DIR$/src/BalancingBrackets.java" />
+        <option value="$PROJECT_DIR$/src/linklist/InsertNodeInSoretdList.java" />
+        <option value="$PROJECT_DIR$/src/linklist/InsertNodeInSortedList.java" />
       </list>
     </option>
   </component>
@@ -532,6 +532,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQ-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQ-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQ-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQ-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="readerwriters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQ-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQ-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="linklist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane">
@@ -591,29 +645,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BalancingBrackets">
-    <configuration default="false" name="IsIntegerArrayASet" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="arrays.IsIntegerArrayASet" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="IQ-Java" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.InsertNodeInSortedList">
     <configuration default="false" name="ReverseLinkList" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -720,6 +752,28 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="InsertNodeInSortedList" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="linklist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="linklist.InsertNodeInSortedList" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="IQ-Java" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -844,19 +898,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.NextRightPointer" />
-      <item index="1" class="java.lang.String" itemvalue="Application.IsIntegerArrayASet" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ReverseLinkList" />
-      <item index="3" class="java.lang.String" itemvalue="Application.DivideIntoTwoLinkList" />
-      <item index="4" class="java.lang.String" itemvalue="Application.CopyLinkListWithRandomNodes" />
-      <item index="5" class="java.lang.String" itemvalue="Application.BalancingBrackets" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ReverseLinkList" />
+      <item index="2" class="java.lang.String" itemvalue="Application.DivideIntoTwoLinkList" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CopyLinkListWithRandomNodes" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BalancingBrackets" />
+      <item index="5" class="java.lang.String" itemvalue="Application.InsertNodeInSortedList" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.BalancingBrackets" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CopyLinkListWithRandomNodes" />
-        <item index="2" class="java.lang.String" itemvalue="Application.DivideIntoTwoLinkList" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ReverseLinkList" />
-        <item index="4" class="java.lang.String" itemvalue="Application.IsIntegerArrayASet" />
+        <item index="0" class="java.lang.String" itemvalue="Application.InsertNodeInSortedList" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BalancingBrackets" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CopyLinkListWithRandomNodes" />
+        <item index="3" class="java.lang.String" itemvalue="Application.DivideIntoTwoLinkList" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ReverseLinkList" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1052,27 +1106,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/UpperAndLowerCaseCombination.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TupleSubstitution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="10" selection-start="236" selection-end="698" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReverseStringUsingRecursion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="7" selection-start="164" selection-end="512" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/binarytree/questions/LevelOrderPrint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="122" column="47" selection-start="3332" selection-end="3560" vertical-scroll-proportion="0.0">
@@ -1127,14 +1160,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arrays/IsIntegerArrayASet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="78" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
+        <state line="9" column="9" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/linklist/ReverseLinkList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="57" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0">
+        <state line="23" column="55" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1146,16 +1179,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/linklist/LinkList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="0" selection-start="2807" selection-end="2958" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/linklist/CopyLinkListWithRandomNodes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="43" selection-start="2240" selection-end="2240" vertical-scroll-proportion="0.0">
+        <state line="65" column="0" selection-start="2240" selection-end="2240" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#735#781#0" expanded="true" />
@@ -1165,12 +1191,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BalancingBrackets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="17" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.85714287">
+        <state line="48" column="21" selection-start="1358" selection-end="1358" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#440#460#0" expanded="true" />
             <element signature="e#733#742#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/MutableInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linklist/LinkList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="78" selection-start="2836" selection-end="2836" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linklist/InsertNodeInSortedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
