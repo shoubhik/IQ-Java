@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/linklist/InsertNodeInSortedList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arrays/CrossMatrix.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/binarytree/questions/LevelOrderPrintInReverse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/Utils.java" afterPath="$PROJECT_DIR$/src/utils/Utils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="IQ-Java.iws" />
@@ -40,7 +42,7 @@
     <file path="/LargestBSTSubtree.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356122406359" ignored="false" />
     <file path="/MutableInteger.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356741174206" ignored="false" />
     <file path="/BalancedBSTFromSortedArray.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356125411788" ignored="false" />
-    <file path="/Utils.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1357682927389" ignored="false" />
+    <file path="/Utils.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1359163827704" ignored="false" />
     <file path="/LinkList.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1359155851197" ignored="false" />
     <file path="/BalancedBSTFromList.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356283251896" ignored="false" />
     <file path="/LowestCommonAncestorOfBST.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1356285506165" ignored="false" />
@@ -86,6 +88,8 @@
     <file path="/BalancingBrackets.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1359157906895" ignored="false" />
     <file path="/InsertNodeInSoretdList.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1359158865702" ignored="false" />
     <file path="/InsertNodeInSortedList.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1359158783499" ignored="false" />
+    <file path="/LevelOrderPrintInReverse.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1359163045941" ignored="false" />
+    <file path="/CrossMatrix.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1359164155668" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,6 +274,20 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/arrays/CrossMatrix.java" line="13" class="arrays.CrossMatrix" package="arrays">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
@@ -361,13 +379,13 @@
       <file leaf-file-name="Utils.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
+            <state line="22" column="29" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InsertNodeInSortedList.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="InsertNodeInSortedList.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/linklist/InsertNodeInSortedList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -376,37 +394,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongestCharacterSequence.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LongestCharacterSequence.java">
+      <file leaf-file-name="LevelOrderPrint.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/binarytree/questions/LevelOrderPrint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="0" selection-start="1187" selection-end="1187" vertical-scroll-proportion="0.0">
+            <state line="134" column="21" selection-start="3901" selection-end="3901" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IsIntegerArrayASet.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arrays/IsIntegerArrayASet.java">
+      <file leaf-file-name="LevelOrderPrintInReverse.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/binarytree/questions/LevelOrderPrintInReverse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="9" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
+            <state line="40" column="45" selection-start="1253" selection-end="1253" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#496#513#0" expanded="true" />
+                <element signature="e#1545#1562#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CrossMatrix.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/arrays/CrossMatrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="46" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.33333334">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReverseLinkList.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/linklist/ReverseLinkList.java">
+      <file leaf-file-name="LargestBSTSubtree.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/binarytree/questions/LargestBSTSubtree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="55" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DivideIntoTwoLinkList.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/linklist/DivideIntoTwoLinkList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="58" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
+            <state line="158" column="60" selection-start="6435" selection-end="6664" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -430,9 +452,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/utils/Utils.java" />
-        <option value="$PROJECT_DIR$/src/TupleSubstitution.java" />
-        <option value="$PROJECT_DIR$/src/ReverseStringUsingRecursion.java" />
         <option value="$PROJECT_DIR$/src/binarytree/questions/LevelDiffCalc.java" />
         <option value="$PROJECT_DIR$/src/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/divideandconquer/QuickSort.java" />
@@ -446,6 +465,9 @@
         <option value="$PROJECT_DIR$/src/BalancingBrackets.java" />
         <option value="$PROJECT_DIR$/src/linklist/InsertNodeInSoretdList.java" />
         <option value="$PROJECT_DIR$/src/linklist/InsertNodeInSortedList.java" />
+        <option value="$PROJECT_DIR$/src/binarytree/questions/LevelOrderPrintInReverse.java" />
+        <option value="$PROJECT_DIR$/src/utils/Utils.java" />
+        <option value="$PROJECT_DIR$/src/arrays/CrossMatrix.java" />
       </list>
     </option>
   </component>
@@ -546,7 +568,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
+              <option name="myItemId" value="binarytree" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -564,7 +586,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="readerwriters" />
+              <option name="myItemId" value="binarytree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="questions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -582,7 +608,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="linklist" />
+              <option name="myItemId" value="arrays" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -645,116 +671,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InsertNodeInSortedList">
-    <configuration default="false" name="ReverseLinkList" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="linklist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="linklist.ReverseLinkList" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="IQ-Java" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="DivideIntoTwoLinkList" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="linklist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="linklist.DivideIntoTwoLinkList" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="IQ-Java" />
-      <envs />
-      <RunnerSettings RunnerId="Cover" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Cover" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="CopyLinkListWithRandomNodes" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="linklist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="linklist.CopyLinkListWithRandomNodes" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="IQ-Java" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="BalancingBrackets" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="BalancingBrackets" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="IQ-Java" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.CrossMatrix">
     <configuration default="false" name="InsertNodeInSortedList" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -774,6 +691,100 @@
       <module name="IQ-Java" />
       <envs />
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LevelOrderPrint" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="binarytree.questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="binarytree.questions.LevelOrderPrint" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="IQ-Java" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LargestBSTSubtree" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="binarytree.questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="binarytree.questions.LargestBSTSubtree" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="IQ-Java" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LevelOrderPrintInReverse" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="binarytree.questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="binarytree.questions.LevelOrderPrintInReverse" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="IQ-Java" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CrossMatrix" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="arrays.CrossMatrix" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="IQ-Java" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -898,19 +909,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.NextRightPointer" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ReverseLinkList" />
-      <item index="2" class="java.lang.String" itemvalue="Application.DivideIntoTwoLinkList" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CopyLinkListWithRandomNodes" />
-      <item index="4" class="java.lang.String" itemvalue="Application.BalancingBrackets" />
-      <item index="5" class="java.lang.String" itemvalue="Application.InsertNodeInSortedList" />
+      <item index="1" class="java.lang.String" itemvalue="Application.InsertNodeInSortedList" />
+      <item index="2" class="java.lang.String" itemvalue="Application.LevelOrderPrint" />
+      <item index="3" class="java.lang.String" itemvalue="Application.LargestBSTSubtree" />
+      <item index="4" class="java.lang.String" itemvalue="Application.LevelOrderPrintInReverse" />
+      <item index="5" class="java.lang.String" itemvalue="Application.CrossMatrix" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.InsertNodeInSortedList" />
-        <item index="1" class="java.lang.String" itemvalue="Application.BalancingBrackets" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CopyLinkListWithRandomNodes" />
-        <item index="3" class="java.lang.String" itemvalue="Application.DivideIntoTwoLinkList" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ReverseLinkList" />
+        <item index="0" class="java.lang.String" itemvalue="Application.CrossMatrix" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LevelOrderPrintInReverse" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LargestBSTSubtree" />
+        <item index="3" class="java.lang.String" itemvalue="Application.LevelOrderPrint" />
+        <item index="4" class="java.lang.String" itemvalue="Application.InsertNodeInSortedList" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -993,7 +1004,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.67736757" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31633466" sideWeight="0.61958265" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38041735" sideWeight="0.49720672" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38041735" sideWeight="0.49720672" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24940239" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1106,34 +1117,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/binarytree/questions/LevelOrderPrint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="47" selection-start="3332" selection-end="3560" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/binarytree/questions/LevelDiffCalc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="26" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/binarytree/questions/ReadBinaryTreeFromFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="1786" selection-end="1786" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/binarytree/questions/LowestCommonAncestorOfBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="62" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/divideandconquer/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="71" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0">
@@ -1207,13 +1190,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/linklist/LinkList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="129" column="78" selection-start="2836" selection-end="2836" vertical-scroll-proportion="0.0">
@@ -1224,6 +1200,45 @@
     <entry file="file://$PROJECT_DIR$/src/linklist/InsertNodeInSortedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/binarytree/questions/LevelOrderPrint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="134" column="21" selection-start="3901" selection-end="3901" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/binarytree/questions/LargestBSTSubtree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="158" column="60" selection-start="6435" selection-end="6664" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/binarytree/questions/LevelOrderPrintInReverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="45" selection-start="1253" selection-end="1253" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#496#513#0" expanded="true" />
+            <element signature="e#1545#1562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="29" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/CrossMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="46" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>

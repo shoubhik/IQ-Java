@@ -12,6 +12,17 @@ public class Utils {
         return sb.toString();
     }
 
+    public static String print2DArray(int arr[][], int rows, int columns){
+        StringBuilder sb = new StringBuilder();
+        for(int i = 0; i <rows;i++){
+            for(int  j = 0; j<columns;j++){
+                sb.append(arr[i][j] + " ");
+            }
+            sb.append("\n");
+        }
+        return sb.toString();
+    }
+
     public static String printArraySingleLineWithRotation(int arr[],
                                                           int startIdx,
                                                           int endIdx) {
