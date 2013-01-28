@@ -91,6 +91,7 @@
     <file path="/StringReverse.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1359167764333" ignored="false" />
     <file path="/ReverseWords.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1359167751954" ignored="false" />
     <file path="/PrintCombinationsOfASet.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1359352304644" ignored="false" />
+    <file path="/PrintLeftEdgeNodes.java" changelist="0ea3f593-6ee5-421f-a9a6-2889b4bd88d4" time="1359352927801" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -415,10 +416,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrintCombinationsOfASet.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PrintCombinationsOfASet.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PrintCombinationsOfASet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="39" selection-start="321" selection-end="321" vertical-scroll-proportion="0.37658226">
+            <state line="12" column="39" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrintEdgeNodes.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/binarytree/questions/PrintEdgeNodes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="47" selection-start="1706" selection-end="1706" vertical-scroll-proportion="1.0372882">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrintLeftEdgeNodes.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/binarytree/questions/PrintLeftEdgeNodes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="41" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -470,6 +491,8 @@
         <option value="$PROJECT_DIR$/src/strings/ReverseWords.java" />
         <option value="$PROJECT_DIR$/src/utils/Utils.java" />
         <option value="$PROJECT_DIR$/src/PrintCombinationsOfASet.java" />
+        <option value="$PROJECT_DIR$/src/binarytree/questions/PrintEdgeNodes.java" />
+        <option value="$PROJECT_DIR$/src/binarytree/questions/PrintLeftEdgeNodes.java" />
       </list>
     </option>
   </component>
@@ -595,6 +618,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQ-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQ-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binarytree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQ-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQ-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binarytree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="questions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -602,6 +665,7 @@
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Project" />
+    <property name="OverrideImplement.combined" value="false" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
@@ -622,29 +686,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrintCombinationsOfASet">
-    <configuration default="false" name="LargestBSTSubtree" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="binarytree.questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="binarytree.questions.LargestBSTSubtree" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="IQ-Java" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.PrintLeftEdgeNodes">
     <configuration default="false" name="LevelOrderPrintInReverse" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -740,6 +782,28 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="PrintLeftEdgeNodes" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="binarytree.questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="binarytree.questions.PrintLeftEdgeNodes" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="IQ-Java" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -827,19 +891,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.NextRightPointer" />
-      <item index="1" class="java.lang.String" itemvalue="Application.LargestBSTSubtree" />
-      <item index="2" class="java.lang.String" itemvalue="Application.LevelOrderPrintInReverse" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CrossMatrix" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ReverseWords" />
-      <item index="5" class="java.lang.String" itemvalue="Application.PrintCombinationsOfASet" />
+      <item index="1" class="java.lang.String" itemvalue="Application.LevelOrderPrintInReverse" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CrossMatrix" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ReverseWords" />
+      <item index="4" class="java.lang.String" itemvalue="Application.PrintCombinationsOfASet" />
+      <item index="5" class="java.lang.String" itemvalue="Application.PrintLeftEdgeNodes" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.PrintCombinationsOfASet" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ReverseWords" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CrossMatrix" />
-        <item index="3" class="java.lang.String" itemvalue="Application.LevelOrderPrintInReverse" />
-        <item index="4" class="java.lang.String" itemvalue="Application.LargestBSTSubtree" />
+        <item index="0" class="java.lang.String" itemvalue="Application.PrintLeftEdgeNodes" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PrintCombinationsOfASet" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ReverseWords" />
+        <item index="3" class="java.lang.String" itemvalue="Application.CrossMatrix" />
+        <item index="4" class="java.lang.String" itemvalue="Application.LevelOrderPrintInReverse" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1026,20 +1090,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BalancingBrackets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="21" selection-start="1358" selection-end="1358" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/MutableInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="29" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0">
@@ -1200,10 +1250,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PrintCombinationsOfASet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="39" selection-start="321" selection-end="321" vertical-scroll-proportion="0.37658226">
+        <state line="12" column="39" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/binarytree/questions/PrintLeftEdgeNodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="41" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/binarytree/questions/PrintEdgeNodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="47" selection-start="1706" selection-end="1706" vertical-scroll-proportion="1.0372882">
+          <folding />
         </state>
       </provider>
     </entry>
