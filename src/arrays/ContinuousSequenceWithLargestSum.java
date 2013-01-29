@@ -33,13 +33,25 @@ public class ContinuousSequenceWithLargestSum {
     public static int getLargestPositiveSum(int arr[]){
         int maxSum = 0;
         int currentSum = 0;
+        int globalMinIdx = -1, localMinIdx = -1, maxIdx = -1;
         for(int i = 0 ; i<arr.length;i++){
             currentSum += arr[i];
-            if(currentSum > maxSum)
+            if(currentSum > maxSum){
                 maxSum = currentSum;
-            else if(currentSum < 0)
+                if(localMinIdx == -1)
+                    localMinIdx = i;
+                else
+                    maxIdx = i;
+            }
+            else if(currentSum < 0){
                 currentSum = 0;
+                if(localMinIdx > globalMinIdx)
+                    globalMinIdx = localMinIdx;
+                localMinIdx  = -1;
+            }
         }
+        System.out.println("minIdx = " + globalMinIdx);
+        System.out.println("maxIdx = " + maxIdx);
         return maxSum;
     }
 
